@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 HRM[Home Rent Management]
 ==========================================
 
@@ -37,6 +36,3 @@ $ php artisan serve
 **http://localhost:8000** \
 USER: admin@example.com \
 PASS: admin123
-=======
-# House-Rent-Management
->>>>>>> 2b51b9bd410b5d716fa84ba2cdfcaf182cdf9fe4
