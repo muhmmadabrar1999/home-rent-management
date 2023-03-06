@@ -1,0 +1,127 @@
+.form-group .form-control ~ label {
+   opacity: 1;
+}
+.myAction{
+    float: right !important;
+    display: inline; !important;
+}
+.mytable td {
+    text-align: center;
+}
+.fa-taka {
+    height: 37px;
+    font-size: 30px
+}
+
+.header-nav-options .dropdown .dropdown-menu {
+    top: 64px;
+}
+.dropdown-header {
+    display: block;
+    padding: 3px 20px;
+    font-size: 12px;
+    line-height: 1.846153846;
+    color: #16c1c1;
+    white-space: nowrap;
+    opacity: 1!important;
+}
+table thead th {
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+}
+table tbody tr td {
+    text-align: center;
+}
+table tfoot tr td {
+    text-align: center;
+}
+
+.gui-icon {
+    font-size: 16px;
+}
+li.gui-folder span.title{
+    font-size: 16px;
+}
+li.dd span.title{
+    font-size: 16px;
+}
+@media print
+{
+    body * {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    html, body {
+        height: 99%;
+    }
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+    .top-zero{
+        top: 0 !important;
+    }
+    section {
+        top: 0 !important;
+        position: relative;
+        padding: 0 !important;
+    }
+    .section-body:first-child {
+        top: 0 !important;
+        margin-top: 0px !important;
+    }
+    #content {
+        position: relative;
+        width: 100%;
+        left: 0;
+        padding-top: 0px !important;
+    }
+}
+
+fieldset {
+    background: #ffffff;
+    border: 2px solid #0aa89e;
+    border-radius: 5px;
+    margin: 20px 20px 20px 20px;
+    padding: 25px;
+    position: relative;
+}
+fieldset legend {
+    background: inherit;
+    font-family: "Lato", sans-serif;
+    color: #007AFF;
+    font-size: 15px;
+    left: 10px;
+    padding: 0 10px;
+    position: absolute;
+    top: -12px;
+    font-weight: 400;
+    width: auto !important;
+    border: none !important;
+    margin: 0;
+}
+footer strong {
+    color: #1abb9c;
+  }
+  footer a {
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+.footer_fixed {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: 100;
+}
+
+footer {
+    background: #f2f3f3;
+    padding: 15px 20px;
+    display: block;
+}
+#content{
+    margin-bottom: 55px;
+}
