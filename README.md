@@ -9,6 +9,7 @@ $ cd Home-Rent-Management
 ```
 $ mv .env.example .env
 ```
+```
 $ composer install
 ```
 ```
@@ -20,7 +21,6 @@ $ php artisan db:seed
 ```
 $ php artisan storage:link
 ```
-
 ```
 $ php artisan serve
 ```
