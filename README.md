@@ -1,8 +1,8 @@
-HRM[House Rent Management]
+HRM[Home Rent Management]
 ==========================================
 
 # Description
-  Easy & hassle free 'House Rent Management' web application.
+  Easy & hassle free 'Home Rent Management' web application.
 
 # Installation and use
 ### HRM is build using Laravel 5.3
@@ -34,20 +34,5 @@ $ php artisan storage:link
 $ php artisan serve
 ```
 **http://localhost:8000** \
-USER: admin@hrm.com \
-PASS: demo123
-
-
-# Screenshot
-<img src="screenshots/1.png">
-<img src="screenshots/2.png">
-<img src="screenshots/3.png">
-<img src="screenshots/4.png">
-<img src="screenshots/6.png">
-<img src="screenshots/7.png">
-
-
-# License
-HRM is open-sourced software licensed under the AGPL-3.0 license. Frameworks and libraries has it own licensed
-
-Enjoy :)
+USER: admin@example.com \
+PASS: admin123

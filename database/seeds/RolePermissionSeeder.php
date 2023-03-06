@@ -131,8 +131,8 @@ class RolePermissionSeeder extends Seeder
         $adminUser = User::create(
             [
                 'name' => 'admin',
-                'email' => 'admin@hrm.com',
-                'password' => 'demo123',
+                'email' => 'admin@example.com',
+                'password' => 'admin123',
                 'description' => '',
                 'remember_token' => null,
             ]);

@@ -13,7 +13,7 @@ class AreaTableSeeder extends Seeder
     public function run()
     {
         Area::insert([
-          ['name' => 'Dhanmondi', 'created_at' => Carbon::now(), 'updated_at' => Carbon::now()],
+          ['name' => 'New York', 'created_at' => Carbon::now(), 'updated_at' => Carbon::now()],
         ]);
     }
 }
